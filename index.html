@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!-- header City Name and Date-->
+    <div class="background">
+      <div class="date-container">
+        <h2 class="cityName" id="cityName"></h2>
+        <h3 class="date" id="date">Jun 25 2022</h3>
+        <a href="chosenCity.html" class="homeButton" id="homeButton"
+          ><img class="homeImg" src="Image/home-2502.svg" alt=""
+        /></a>
+      </div>
+      <!-- Image, Current Temperature, and Current Weather Info -->
+      <div class="container">
+        <div class="current-info">
+          <img class="weatherImage" id="weatherImage" src="" alt="" />
+          <p class="currentTemp" id="currentTemp"></p>
+          <p class="currentWeather" id="currentWeather"></p>
+        </div>
+      </div>
+      <!-- Min Temperature Card -->
+      <div class="container">
+        <div class="minTemp">
+          <div class="row">
+            <div class="col">
+              <h3 class="minTitle" id="minTitle">Min Temp</h3>
+              <div class="minUnit">
+                <p class="temp2" id="temp2"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Max Temperature Card -->
+        <div class="maxTemp">
+          <div class="row">
+            <div class="col">
+              <h3 class="maxTitle">Max Temp</h3>
+              <div class="maxUnit">
+                <p class="temp3" id="temp3"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Uv Indicator Section-->
+      <div class="container-fluid">
+        <div class="uvIndicator">
+          <div class="row">
+            <div class="col">
+              <h3 class="uvTitle">UV Indicator</h3>
+              <div class="lowUnit">
+                <p class="lowValue" id="lowValue"></p>
+              </div>
+              <p class="lowInfo" id="lowInfo"></p>
+            </div>
+          </div>
+        </div>
+        <!-- Feels like Section -->
+        <div class="feelsLike">
+          <div class="row">
+            <div class="col">
+              <h3 class="feelsLikeTitle">Feels Like</h3>
+              <div class="feelsLikeUnit">
+                <p class="feelsLikeValue" id="feelsLikeValue"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pressure Section -->
+        <div class="pressure">
+          <div class="col">
+            <h3 class="pressureTitle">Pressure</h3>
+            <p class="pressureValue" id="pressureValue"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MY SCRIPT -->
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

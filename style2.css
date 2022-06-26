@@ -1,0 +1,207 @@
+/* Gradiant Background */
+.background {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 411px;
+  height: 823px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #0f2027 0%, #203a43 52.6%, #2c5364 100%);
+  border: 1px solid #000000;
+}
+
+.title {
+  /* Title */
+  width: 276px;
+  height: 41px;
+
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+}
+
+.mainTitle {
+  left: 10px;
+}
+
+.bottomright {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 300px;
+  top: calc(50% - 75px / 2 + 312px);
+
+  background: radial-gradient(
+      100% 100% at 0% 0%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(42px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+.button {
+  /* + */
+  position: absolute;
+  width: 75px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #d0d0d0;
+}
+
+.cityName {
+  /* Where */
+  position: absolute;
+  width: 153px;
+  height: 43px;
+  left: 6px;
+
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+  inline-size: auto;
+}
+
+.addCityName {
+  width: 280px;
+}
+
+.tempCard {
+  /* Temp */
+  position: absolute;
+  width: 68px;
+  height: 48px;
+  left: 290px;
+  top: 0px;
+
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.currentWeather {
+  /* State */
+  position: absolute;
+  width: 65px;
+  height: 24px;
+  left: 5px;
+  top: 95px;
+
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.63);
+  inline-size: auto;
+}
+
+.myCard {
+  width: 385px;
+  height: 131px;
+  right: 26px;
+  top: calc(50% - 131px / 2 - 189px);
+  margin-top: 20px;
+
+  background: radial-gradient(
+      100% 100% at 0% 0%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(42px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+.max {
+  position: absolute;
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 12px;
+  right: 90px;
+  top: 65px;
+
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.min {
+  position: absolute;
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 12px;
+  top: 65px;
+
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.time {
+  position: absolute;
+  width: 34px;
+  height: 22px;
+  left: 5px;
+  top: 35px;
+
+  font-family: "Basier Circle";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.add-location {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 78px;
+  padding: 20px;
+  width: 384px;
+  margin-top: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
