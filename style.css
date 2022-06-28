@@ -30,14 +30,23 @@
 }
 
 .homeButton {
-  position: absolute;
   top: 0px;
-  right: 25px;
+  left: 310px;
+  display: inline-flex;
+  font-size: 3rem;
+  text-decoration: none;
+  color: var(--color-icon);
+  width: 6rem;
+  height: 6rem;
+  transition: 0.5s linear;
+  position: relative;
+  z-index: 1;
+  margin: auto;
 }
 
 .homeImg {
-  width: 50px;
-  height: 100px;
+  width: 70px;
+  height: 75px;
 }
 
 .date {
@@ -128,6 +137,7 @@
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 20px;
+  border-style: solid;
 }
 
 .maxTemp {
@@ -149,6 +159,7 @@
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 20px;
+  border-style: solid;
 }
 
 .minTitle {
@@ -240,6 +251,7 @@
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 20px;
+  border-style: solid;
 }
 
 .uvTitle {
@@ -314,6 +326,7 @@
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 20px;
+  border-style: solid;
 }
 
 .feelsLikeTitle {
@@ -371,6 +384,7 @@
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 20px;
+  border-style: solid;
 }
 
 .pressureTitle {
