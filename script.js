@@ -24,7 +24,7 @@ let weather = {
     //Adding a new card
     const itemHTML = `<div class="myCard d-flex flex-column" id="${
       data.location.name
-    }" onclick="window.location.href = 'index.html?location=${
+    }" onclick="window.location.href = 'chosenCity.html?location=${
       data.location.name
     }'">
             <div class="row">
