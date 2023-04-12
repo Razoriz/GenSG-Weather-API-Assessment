@@ -1,7 +1,7 @@
 //to fetch again the weather data
 const countryName = location.search.split("=")[1];
 let weather = {
-  apiKey: "3df10c39f78b4bc8bb3b4af93d266759",
+  apiKey: "0cbee5f186e24e2589e22537222306",
   fetchWeather: function (city) {
     fetch(
       "https://api.weatherapi.com/v1/forecast.json?key=" +
